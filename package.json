@@ -1,0 +1,30 @@
+{
+  "name": "rabbitmq-webstomp",
+  "version": "1.0.0",
+  "description": "Send notifications to rabbitMq using webstomp client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurence702/rabbitmq-webstomp.git"
+  },
+  "keywords": [
+    "rabbitMQ",
+    "webstomp",
+    "notification",
+    "websockets"
+  ],
+  "author": "Ikenna Laurence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurence702/rabbitmq-webstomp/issues"
+  },
+  "homepage": "https://github.com/laurence702/rabbitmq-webstomp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webstomp-client": "^1.2.6",
+    "ws": "^8.2.2"
+  }
+}
